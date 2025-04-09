@@ -1,10 +1,21 @@
 {
-  "name": "data_converter",
+  "name": "llm-node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.33",
+    "@langchain/core": "^0.3.42",
+    "@langchain/openai": "^0.4.4",
+    "advanced-calculator": "^1.1.1",
+    "langchain": "^0.3.19",
+    "openai": "^4.86.1",
+    "pdf-parse": "^1.1.1",
+    "youtubei.js": "^13.1.0"
   },
   "keywords": [],
   "author": "",
